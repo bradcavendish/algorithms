@@ -21,7 +21,7 @@ def findPair2(arr, n, sum):
 	arr = sorted(arr)
 	print(f"Sorted array = {arr}")
 
-	#hold and index for high and low
+	#hold an index for high and low
 	low = 0
 	high = n - 1
 
